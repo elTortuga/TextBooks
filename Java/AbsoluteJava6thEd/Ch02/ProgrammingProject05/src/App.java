@@ -7,7 +7,5 @@ public class App {
         float percentage = Float.parseFloat(keyboardInput.nextLine());
         float gpa = percentage * 4 / 100;
         System.out.printf("The gpa is %.0f", gpa);
-
-
     }
 }
